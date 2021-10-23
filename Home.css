@@ -1,0 +1,105 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+.background{
+    width: 100%;
+    min-height: 100vh;
+    position: relative;
+}
+
+.background img{
+    width: 100%;
+}
+
+.form{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 400px;
+    background: rgb(240, 236, 236);
+    border-radius: 20px;
+    text-align: center;
+    box-shadow: 5px 0 5px 0 rgb(0, 0, 0,0.1) ;
+}
+
+.form img{
+    width: 100%;
+    height: auto;
+    border-radius: 10px 10px 0 0;
+}
+
+.form h2{
+    margin: 20px 0;
+    padding-top: 10px;
+    font-weight: bold; 
+}
+
+.plan{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: 20px auto;
+    height: auto;
+    background: hsl(224, 63%, 85%);
+    padding: 10px 0;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.plan img{
+    height: auto;
+    width: auto;
+    margin-left: 20px;
+}
+
+.plan > .font{
+    margin-right: 55px;
+
+}
+
+.font p{
+    color: rgb(151, 149, 149);
+}
+
+.plan p:not(.font > p){
+    color: rgb(38, 38, 197);
+    font-weight: bold;
+    margin-right: 20px;
+    cursor: pointer;
+    font-size: 13px;
+}
+
+/* Button */
+
+
+.button input{
+    text-align: center;
+    width: 80%;
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    background: rgb(240, 236, 236);
+}
+
+.process-button input{
+    background: rgb(177, 79, 177);
+    color: white;
+    font-weight: bold;
+    transition: 0.5s;
+}
+
+.process-button input:hover{
+    box-shadow: 3px 3px 0 3px rgb(0, 0, 0,0.1);
+}
+
+.Cancel-button input{
+    margin: 10px 0;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
